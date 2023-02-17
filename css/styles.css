@@ -100,15 +100,14 @@
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background: black;
+    background: rgb(0, 0, 0);
     margin: 5px;
-    color:#ACB7C3;
   }
 
   .body p {
     width: 95%;
     margin-left: 10px;
-  }
+  }S
 
   .h-menu a {
     font-family: "Inter", sans-serif;
