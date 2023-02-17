@@ -47,28 +47,28 @@
     margin-top: 40px;
   }
   
-.icon {
+  .ulist {
     margin-top: 40px;
   }
   
-.icon ul {
+  .ulist ul {
     display: flex;
     justify-content: center;
     list-style: none;
   }
   
-.icon a {
+  .ulist a {
     margin: 10px;
     color: #505f79;
     font-size: 20px;
   }
   
-.icon a:hover {
+  .ulist a:hover {
     cursor: pointer;
     color: blue;
   }
   
-@media (max-width: 770px) {
+  @media (max-width: 770px) {
     .h-menu {
       display: flex;
       justify-content: space-between;
@@ -79,7 +79,7 @@
     }
   
     .body {
-      background-image: url(./images/header-img.png);
+      background-image: url(../images/header-img.png);
       background-repeat: no-repeat;
       background-size: cover;
       height: 700px;
@@ -129,6 +129,7 @@
   
     .pointer li {
       list-style-type: none;
+      color: white;
     }
   
     .pointer a:hover {
@@ -138,18 +139,59 @@
   
     .pointer {
       margin-top: 80px;
+      color: white;
     }
-
-    .ulist {
-        display: flex;
-        list-style: none;
-        justify-content: flex-start;
-        gap: 20px;
-        padding-left: 24px;
-        margin: 0.5rem 0 136px 0; 
+  
+    .page-1 {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 0.1fr 0.1fr 0.1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+        "header"
+        "line"
+        "grid"
+        "grid"
+        "grid"
+        "grid"
+        "grid"
+        "grid";
     }
-      .h2-text {
-        margin: 0 260px 14px 260px;
-        padding: 0;
-      }
-}
+  
+    .abt-card {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+        "card"
+        "card"
+        "card";
+    }
+  
+    .abt-main {
+      background-image: url(./assets/1-\ about\ me-mobile.png);
+      background-repeat: no-repeat;
+      background-position: right 0%;
+    }
+  
+    form {
+      width: 60%;
+    }
+  }
+  
+  .header h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    margin-top: 50px;
+  }
+  
+  .line hr {
+    display: none;
+    background: #36b37e;
+    width: 10%;
+    height: 5px;
+    border-radius: 24px;
+    margin-left: 45%;
+  }
