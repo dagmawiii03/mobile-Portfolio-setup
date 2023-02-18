@@ -1,3 +1,4 @@
+/* stylelint-disable no-missing-end-of-source-newline */
 /* stylelint-disable no-eol-whitespace */
 /* stylelint-disable block-closing-brace-newline-before */
 * {
@@ -632,3 +633,4 @@ form {
     margin-top: 50px;
     padding: 20px;
   }
+}
