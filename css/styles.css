@@ -219,13 +219,17 @@ body {
   margin-top: 50px;
 }
 
-.line hr {
+hr.line {
   display: none;
   background: #36b37e;
-  width: 10%;
-  height: 5px;
   border-radius: 24px;
   margin-left: 45%;
+  width: 48px;
+  height: 4px;
+  order: 1;
+  flex: none;
+  flex-grow: 0;
+  border-top: 1px solid red;
 }
 
 .grid {
@@ -239,7 +243,7 @@ body {
 }
 
 .grid1 {
-  background-image: url(./assets/background-contact-shape2.png);
+  background-image: url(../images/background-contact-shape2.png);
   height: 300px;
   border-radius: 5px;
 }
@@ -295,7 +299,7 @@ body {
 }
 
 .abt-main {
-  background-image: url(./assets/1-\ about\ me-mobile.png);
+  background-image: url(../images/ about\ me-mobile.png);
   background-repeat: no-repeat;
   background-position: right 0%;
 }
@@ -569,13 +573,15 @@ form {
     flex: none;
     order: 1;
     flex-grow: 0;
+    position: relative;
+    bottom: 30px;
   }
 
-  .abt-mainn {
-    background-image: url(./images/illustration\ 1-\ about\ me-mobile.png), url(./images/illustration\ 2-about\ me\ mobile.png);
+  .abt-main {
+    background-image: url(../images/illustration\ 1-\ about\ me-mobile.png.jpg), url(../images/illustration\ 2-about\ me\ mobile.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
-    max-height: fit-content;
+    max-height: fit-content; 
   }
 
   .abt-main button {
