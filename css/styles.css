@@ -1,3 +1,4 @@
+/* stylelint-disable at-rule-empty-line-before */
 /* stylelint-disable no-missing-end-of-source-newline */
 /* stylelint-disable no-eol-whitespace */
 /* stylelint-disable block-closing-brace-newline-before */
@@ -302,7 +303,6 @@ hr.line {
 }
 
 .abt-main {
-
   background-repeat: no-repeat;
   background-position: right 0%;
 }
@@ -492,7 +492,6 @@ form {
 .grey {
   color: grey;
 }
-
 @media screen and (min-width: 375px) and (max-width: 786px) {
   .header.h1 {
     width: 375px;
