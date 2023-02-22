@@ -564,3 +564,19 @@ form {
   border-radius: 1px;
   background: #fff;
 }
+
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+
