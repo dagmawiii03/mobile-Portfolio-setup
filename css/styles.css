@@ -192,7 +192,6 @@ body {
       "card";
     gap: 1px;
   }
-  
 
   .white-color {
     color: rgb(129, 129, 129);
@@ -501,10 +500,11 @@ textarea {
   }
 
   .abt-main {
-    background-image: url(../images/illustration\ 1-\ about\ me-mobile.png.jpg), url(../images/illustration\ 2-about\ me\ mobile.png);
+    background-image: url(../images/illustration\ 1-\ about\ me-mobile.png.jpg),
+      url(../images/illustration\ 2-about\ me\ mobile.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
-    max-height: fit-content; 
+    max-height: fit-content;
   }
 
   .abt-main button {
