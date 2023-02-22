@@ -597,5 +597,21 @@ form {
   background: #fff;
 }
 
+.form-left-decoration::before {
+  top: -20px;
+}
 
+.form-left-decoration::after {
+  top: 20px;
+  left: 10px;
+}
 
+.form-right-decoration::before {
+  top: -20px;
+  right: 0;
+}
+
+.form-right-decoration::after {
+  top: 20px;
+  right: 10px;
+}
