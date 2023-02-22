@@ -580,3 +580,22 @@ form {
   left: -30px;
 }
 
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+
+.form-left-decoration::before,
+.form-left-decoration::after,
+.form-right-decoration::before,
+.form-right-decoration::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+
+
