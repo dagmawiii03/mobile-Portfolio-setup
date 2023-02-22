@@ -504,8 +504,7 @@ textarea {
   }
 
   .abt-main {
-    background-image: url(../images/illustration\ 1-\ about\ me-mobile.png.jpg),
-      url(../images/illustration\ 2-about\ me\ mobile.png);
+    background-image: url(../images/illustration\ 1-\ about\ me-mobile.png.jpg), url(../images/illustration\ 2-about\ me\ mobile.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
     max-height: fit-content;
@@ -558,46 +557,41 @@ textarea {
   }
 
   .form-inner input {
-    /* Theme 2 / Text Input Normal */
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
     display: flex;
     align-items: center;
-    /* Theme 1 / Neutrals 6 */
     color: #6b778c;
   }
 
   ::-webkit-input-placeholder {
     text-align: left;
   }
+  
   :-moz-placeholder {
     text-align: left;
   }
 
   .form-inner textarea {
-    /* Theme 2 / Text Input Normal */
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     align-items: start;
-    /* or 160% */
-    /* Theme 1 / Neutrals 1 */
     color: #091e42;
   }
 
   .form-inner input,
   .form-inner textarea {
     box-sizing: border-box;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #c8cfcb;
     border-radius: 4px;
-    text-indent: 0px;
+    text-indent: 0;
   }
 }
 
@@ -659,16 +653,6 @@ form {
   right: 10px;
 }
 
-.circle {
-  position: absolute;
-  bottom: 80px;
-  left: -55px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #fff;
-}
-
 .form-inner {
   padding: 40px;
 }
@@ -681,22 +665,15 @@ form {
   font-weight: 400;
   padding: 15px;
   margin-bottom: 10px;
-  border: none;
-  border-radius: 1px;
-  background: #ffffff;
+  border-radius: 4px;
+  background: #fff;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+  direction: ltr;
+  text-indent: 0;
 }
 
 .form-inner textarea {
   resize: none;
   color: #091e42;
-}
-
-.form-inner input,
-.form-inner textarea {
-  box-sizing: border-box;
-  background: #ffffff;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  direction: ltr;
-  text-indent: 0px;
 }
