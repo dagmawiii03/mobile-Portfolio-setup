@@ -32,7 +32,7 @@
 
 # 📖 About the Project <a name="about-project"></a>
 
-> Build mobile first portfolio website using the template in figma comprising all  professional coding requirements
+> Build mobile first portfolio website using the template in figma comprising all professional coding requirements
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -98,8 +98,15 @@ Start python server and open http://localhost:8000
 
 ## 👤 Author <a name="authors"></a>
 
-- GitHub: [@dagmawiii03](https://github.com/dagmawiii03)
-- LinkedIn: [LinkedIn](linkedin.com/in/dagmawi-yohannes-b36488236)
+**Dagmawi Yohannes**
+
+- [Github](https://github.com/dagmawiii03)
+- [LinkedIn](linkedin.com/in/dagmawi-yohannes-b36488236)
+
+**Abel Mitiku**
+
+- [Github](https://github.com/abel-blue)
+- [LinkedIn](https://www.linkedin.com/in/abel-mitiku-2b95bb215/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -111,7 +118,7 @@ Start python server and open http://localhost:8000
 
 ## 🤝 Contributing <a name="contributing"></a>
 
- Contributions, problem fixes, and feature requests are all appreciated!
+Contributions, problem fixes, and feature requests are all appreciated!
 
 Feel free to check the [issues page](https://github.com/dagmawiii03/mobile-Portfolio-setup/issues).
 
@@ -120,7 +127,6 @@ Feel free to check the [issues page](https://github.com/dagmawiii03/mobile-Portf
 > All kind of support is appreciated as well.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
 
 - **How to make a responsive web app**
 
