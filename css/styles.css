@@ -640,3 +640,7 @@ form {
   border-radius: 1px;
   background: #e0e4e6;
 }
+
+.form-inner textarea {
+  resize: none;
+}
