@@ -192,10 +192,7 @@ body {
       "card";
     gap: 1px;
   }
-
-  form {
-    width: 60%;
-  }
+  
 
   .white-color {
     color: rgb(129, 129, 129);
@@ -402,64 +399,6 @@ textarea {
   outline: none;
 }
 
-form {
-  position: relative;
-  width: 100%;
-  border-radius: 1px;
-  background: #fff;
-}
-
-.form-left-decoration,
-.form-right-decoration {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  border-radius: 1px;
-  background: #fff;
-}
-
-.form-left-decoration {
-  bottom: 60px;
-  left: -30px;
-}
-
-.form-right-decoration {
-  top: 60px;
-  right: -30px;
-}
-
-.form-left-decoration::before,
-.form-left-decoration::after,
-.form-right-decoration::before,
-.form-right-decoration::after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  border-radius: 1px;
-  background: #fff;
-}
-
-.form-left-decoration::before {
-  top: -20px;
-}
-
-.form-left-decoration::after {
-  top: 20px;
-  left: 10px;
-}
-
-.form-right-decoration::before {
-  top: -20px;
-  right: 0;
-}
-
-.form-right-decoration::after {
-  top: 20px;
-  right: 10px;
-}
-
 .circle {
   position: absolute;
   bottom: 80px;
@@ -468,25 +407,6 @@ form {
   height: 20px;
   border-radius: 50%;
   background: #fff;
-}
-
-.form-inner {
-  padding: 40px;
-}
-
-.form-inner input,
-.form-inner textarea {
-  display: block;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 1px;
-  background: #e0e4e6;
-}
-
-.form-inner textarea {
-  resize: none;
 }
 
 .grey {
