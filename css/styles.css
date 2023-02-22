@@ -103,6 +103,10 @@ body {
     height: 60px;
   }
 
+  form {
+    width: 60%;
+  }
+
   .body {
     background-image: url(../images/header-img.png);
     background-repeat: no-repeat;
@@ -552,4 +556,11 @@ textarea {
     margin-top: 50px;
     padding: 20px;
   }
+}
+
+form {
+  position: relative;
+  width: 100%;
+  border-radius: 1px;
+  background: #fff;
 }
