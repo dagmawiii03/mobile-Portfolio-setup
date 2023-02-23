@@ -588,7 +588,7 @@ textarea {
   .form-inner input,
   .form-inner textarea {
     box-sizing: border-box;
-    background: #fff;
+    background: rgba(237, 237, 240, 1);
     border: 1px solid #c8cfcb;
     border-radius: 4px;
     text-indent: 0;
@@ -599,7 +599,7 @@ form {
   position: relative;
   width: 100%;
   border-radius: 1px;
-  background: #fff;
+  background: rgba(237, 237, 240, 1);
 }
 
 .form-left-decoration,
