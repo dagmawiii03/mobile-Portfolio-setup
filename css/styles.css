@@ -499,6 +499,10 @@ textarea {
   .recent-works h1:first-child::after {
     content: none;
   }
+
+  .link-mail {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -519,5 +523,9 @@ textarea {
 
   .about-me {
     background: url(../assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+  }
+
+  .link-mail {
+    display: none;
   }
 }
