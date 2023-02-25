@@ -412,3 +412,96 @@ textarea {
 .link-mail {
   color: #42526e;
 }
+
+@media screen and (min-width: 768px) {
+  .phone-navigation {
+    display: none;
+  }
+
+  .footer-container > .social-media {
+    margin-top: 18em;
+  }
+
+  .input-name,
+  .input-email,
+  textarea {
+    min-width: 327px;
+    width: calc(95vw - 684px);
+  }
+
+  .submit-button {
+    align-self: flex-start;
+  }
+
+  .input-name input {
+    max-width: 100%;
+    min-width: 100%;
+    width: inherit;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .footer-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: url(./assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(./assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(./assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+  }
+
+  .card-abt-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 90%;
+  }
+
+  .home-page {
+    background: #fff url(./assets/Header-llustration-desktop.svg) no-repeat;
+    background-size: 100%;
+    padding-bottom: 8em;
+  }
+
+  .desktop-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 1em;
+    margin: 0;
+  }
+
+  .desktop-navigation li {
+    list-style: none;
+    padding: 0;
+    margin: 1em;
+    font-size: 14px;
+    font-weight: bold;
+    color: #42526e;
+    cursor: pointer;
+  }
+
+  .title-header {
+    padding-top: 3em;
+  }
+
+  .recent-works {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px repeat(3, 1fr);
+  }
+
+  .recent-works h1:first-child {
+    align-self: flex-end;
+    padding: 1em;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+
+  .recent-works h1:first-child::after {
+    content: none;
+  }
+}
+
