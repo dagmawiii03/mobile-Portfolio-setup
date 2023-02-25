@@ -505,3 +505,25 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .home-page {
+    padding-bottom: 15em;
+  }
+
+  .recent-works {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px repeat(2, 1fr);
+  }
+
+  .recent-works h1:first-child {
+    padding: 1em;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .about-me {
+    background: url(./assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+  }
+}
+
+
