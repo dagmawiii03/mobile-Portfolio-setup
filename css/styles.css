@@ -150,7 +150,7 @@ span {
 }
 
 .home-page {
-  background: #fff url(./assets/header-illsutration-mobile.svg) no-repeat;
+  background: #fff url(../assets/header-illsutration-mobile.svg) no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
@@ -201,7 +201,7 @@ span {
 .social-media > ul > li > a {
   text-decoration: none;
   color: #42526e;
-  font-size: 20px;
+  font-size: 50px;
   margin-top: 1.5em;
 }
 
@@ -276,7 +276,7 @@ span {
 
 .about-me {
   margin-top: 2em;
-  background: url(./assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
+  background: url(../assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(../assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
 }
@@ -352,7 +352,7 @@ span {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: url(./assest/illustration-contact-form.svg) no-repeat 100% 90%;
+  background: url(../assest/illustration-contact-form.svg) no-repeat 100% 90%;
   padding: 2em 5em;
 }
 
@@ -448,7 +448,7 @@ textarea {
   .footer-container {
     margin-bottom: 0;
     padding-bottom: 0;
-    background: url(./assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(./assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(./assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+    background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
 
   .card-abt-me {
@@ -459,7 +459,7 @@ textarea {
   }
 
   .home-page {
-    background: #fff url(./assets/Header-llustration-desktop.svg) no-repeat;
+    background: #fff url(../assets/Header-llustration-desktop.svg) no-repeat;
     background-size: 100%;
     padding-bottom: 8em;
   }
@@ -522,6 +522,6 @@ textarea {
   }
 
   .about-me {
-    background: url(./assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+    background: url(../assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
   }
 }
