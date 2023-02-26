@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
-/* General and mobile media <768px property */
 html,
 body {
   margin: 0;
@@ -240,6 +239,7 @@ span {
   height: 474px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: box-shadow 0.4s ease-out;
 }
 
 .card-work > .card-tags > li {
@@ -309,6 +309,7 @@ span {
   border: 1px lightgrey solid;
   border-radius: 5px;
   left: calc(50% - 327px / 2);
+  transition: box-shadow 0.4s ease-out;
 }
 
 .card-cat > .cat-tags > li {
