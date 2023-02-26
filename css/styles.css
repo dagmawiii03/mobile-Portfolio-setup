@@ -445,9 +445,7 @@ textarea {
   .footer-container {
     margin-bottom: 0;
     padding-bottom: 0;
-    background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat
-        0% 90%,
-      url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+    background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
 
   .card-abt-me {
