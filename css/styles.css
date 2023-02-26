@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
-/* General and mobile media <768px property */
 html,
 body {
   margin: 0;
@@ -273,9 +272,7 @@ span {
 
 .about-me {
   margin-top: 2em;
-  background: url(../assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat
-      100% 0%,
-    url(../assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
+  background: url(../assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(../assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
 }
@@ -450,8 +447,7 @@ textarea {
     padding-bottom: 0;
     background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat
         0% 90%,
-      url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%,
-      url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+      url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
 
   .card-abt-me {
@@ -529,9 +525,7 @@ textarea {
   }
 
   .about-me {
-    background: url(../assets/illustration-about-me-2-desktop.svg) no-repeat 0%
-        20%,
-      url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+    background: url(../assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
   }
 
   .link-mail {
