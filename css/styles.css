@@ -36,7 +36,7 @@ button {
   border: none;
   width: fit-content;
   align-self: center;
-  background: #36b37e;
+  background: #575757;
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 2px;
@@ -126,7 +126,7 @@ a {
 .port-link:hover,
 .abt-link:hover,
 .contact-link:hover {
-  color: #36b37e;
+  color: #1d6349;
 }
 
 h1 {
@@ -141,7 +141,7 @@ h1 {
 }
 
 span {
-  color: #36b37e;
+  color: #595959;
 }
 
 .home-page {
@@ -248,6 +248,7 @@ span {
   padding: 0.5em;
   margin: 0 0.5em;
   border-radius: 4px;
+  color: #4f4f4f;
 }
 
 .card-image {
@@ -314,7 +315,7 @@ span {
 
 .card-cat > .cat-tags > li {
   background: white;
-  color: #36b37e;
+  color: #1d6346;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
