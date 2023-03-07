@@ -1,4 +1,4 @@
-// Toogle Mobile Menu
+// Toogle Mobile Menu javascript
 
 const menu = document.querySelector(".mobileMenu");
 
