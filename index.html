@@ -11,52 +11,37 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body class="main">
+  <body>
     <!-- navbar setup -->
     <header>
       <!-- phone navigation -->
-       <!-- Mobile Menu Toggle -->
-          <section class="menu-mobile showMenu">
-            <button class="close" type="button"><h2>X</h2></button>
-            <ul class="mobile-links">
-              <li class="mobileLink">
-                <a class="mobileLinkText" href="#">Portfolio</a>
-              </li>
-              <li class="mobileLink">
-                <a class="mobileLinkText" href="#about-me">About</a>
-              </li>
-              <li class="mobileLink">
-                <a class="mobileLinkText" href="#social-media">Contact</a>
-              </li>
-            </ul>
-          </section>
-
       <section class="phone-navigation">
         <a href="/" class="logo">
           <h3>Welcome</h3>
         </a>
         <button type="button" class="menu-button">
-          <img class="mobileMenu" src="../assets/Union.svg" alt="menu link" />
+          <img src="../assets/Union.svg" alt="menu link" />
         </button>
         <nav class="mobile-navigation hide">
-          <button type="button" class="close-button">
+          <button type="button" class="btn-close-nav">
             <img src="../assets/Icon-Cancel.svg" alt="cancel icon" />
           </button>
+          <!-- Mobile Menu Toggle -->
           <ul>
             <li>
-              <a href="#" class="port-link"> Portfolio </a>
+              <a href="#works-id" class="port-link"> Portfolio </a>
             </li>
             <li>
-              <a href="#" class="abt-link"> </a>
+              <a href="#about-myself-id" class="abt-link"> About </a>
             </li>
             <li>
-              <a href="#" class="contact-link"> Contact </a>
+              <a href="#footer-container-id" class="contact-link"> Contact </a>
             </li>
           </ul>
         </nav>
       </section>
     </header>
-    <!-- will add anim -->
+    <!-- will add animation -->
     <!-- home page -->
     <section class="home-page">
       <nav>
@@ -114,7 +99,7 @@
         </button>
       </section>
     </section>
-    <section id="recent-works" class="recent-works">
+    <section class="recent-works" id="works-id">
       <h1>
         My Recent <br /> 
         Works
@@ -198,8 +183,9 @@
         <button type="button" class="btn-popup">See Project</button>
       </article>
     </section>
-    <section class="container-model about-me">
-      <section id="about-me"class="container">
+    <!-- About me page -->
+    <section class="container-model about-me" id="about-myself-id">
+      <section class="container"></section>
         <h1>About me</h1>
         <p>
           I can help you build a product , feature or website Look through some
@@ -255,7 +241,8 @@
         </li>
       </ul>
     </section>
-    <footer class="footer-container">
+    <!-- footer section -->
+    <footer class="footer-container" id="footer-container-id">
       <section class="footer-form">
         <h1 class="footer-title">
           I'm always interested in hearing about new projects, so if you'd like

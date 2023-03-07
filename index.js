@@ -1,13 +1,32 @@
 // Toogle Mobile Menu javascript
+const linkPortfolio = document.querySelector('.port-link');
+const linkAbout = document.querySelector('.abt-link');
+const linkContact = document.querySelector('.contact-link');
+const menuBtn = document.querySelector('.menu-button');
+const btnCloseNav = document.querySelector('.btn-close-nav');
+const headerNavMobile = document.querySelector('.mobile-navigation');
 
-const menu = document.querySelector('.mobileMenu');
+menuBtn.addEventListener('click', () => {
+  menuBtn.classList.add('hide');
+  headerNavMobile.classList.remove('hide');
+});
 
-const mobileMenu = document.querySelector('.menu-mobile');
+btnCloseNav.addEventListener('click', () => {
+  menuBtn.classList.remove('hide');
+  headerNavMobile.classList.add('hide');
+});
 
-const toggleMenu = () => {
-  mobileMenu.classList.toggle('showMenu');
-};
+linkPortfolio.addEventListener('click', () => {
+  headerNavMobile.classList.add('hide');
+  menuBtn.classList.remove('hide');
+});
 
-menu.addEventListener('click', () => toggleMenu());
+linkAbout.addEventListener('click', () => {
+  headerNavMobile.classList.add('hide');
+  menuBtn.classList.remove('hide');
+});
 
-mobileMenu.addEventListener('click', () => toggleMenu());
+linkContact.addEventListener('click', () => {
+  headerNavMobile.classList.add('hide');
+  menuBtn.classList.remove('hide');
+});

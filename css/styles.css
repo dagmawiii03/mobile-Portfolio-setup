@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
+/* mobile media <768px property */
 html,
 body {
   margin: 0;
   padding: 0;
   padding-bottom: 2em;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -40,7 +37,7 @@ button {
   border: none;
   width: fit-content;
   align-self: center;
-  background: #575757;
+  background: #36b37e;
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 2px;
@@ -130,79 +127,7 @@ a {
 .port-link:hover,
 .abt-link:hover,
 .contact-link:hover {
-  color: #1d6349;
-}
-
-.menu-mobile {
-  display: flex;
-  flex-direction: column;
-  height: 95vh;
-  background: #fff;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 57px;
-  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  z-index: 999;
-  animation: slide-in 1s both;
-  mix-blend-mode: normal;
-}
-
-.showMenu {
-  display: none;
-}
-
-.close {
-  color: #67798e;
-  align-self: end;
-  margin: 3.875rem 2.375rem -0.875rem;
-  background-color: unset;
-  width: 12px;
-  height: 12px;
-  z-index: 989;
-}
-
-.close:hover {
-  background-color: unset;
-  color: #67798e;
-  border: 2px solid #67798e;
-  transform: rotate(180deg);
-  scale: 1.5;
-}
-
-.mobileLinkText {
-  text-decoration: none;
-  color: #3a4a42;
-  font-family: "Inter", serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-}
-
-.mobileLinkText:hover {
-  color: #ff6b00;
-  font-size: 40px;
-  transition: 300ms ease-in-out;
-}
-
-.mobileLink {
-  list-style: none;
-  padding: 1rem 1.5rem;
-  margin: 1rem;
-}
-
-@keyframes slide-in {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
+  color: #36b37e;
 }
 
 h1 {
@@ -217,11 +142,11 @@ h1 {
 }
 
 span {
-  color: #595959;
+  color: #36b37e;
 }
 
 .home-page {
-  background: #fff url(../assets/header-illsutration-mobile.svg) no-repeat;
+  background: #fff url(./assets/header-illsutration-mobile.svg) no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
@@ -272,7 +197,7 @@ span {
 .social-media > ul > li > a {
   text-decoration: none;
   color: #42526e;
-  font-size: 70px;
+  font-size: 20px;
   margin-top: 1.5em;
 }
 
@@ -319,12 +244,11 @@ span {
 }
 
 .card-work > .card-tags > li {
-  background: #ebf0ee;
+  background: rgb(226, 225, 225);
   font-size: 12px;
   padding: 0.5em;
   margin: 0 0.5em;
   border-radius: 4px;
-  color: #4f4f4f;
 }
 
 .card-image {
@@ -349,10 +273,7 @@ span {
 
 .about-me {
   margin-top: 2em;
-  background:
-    url(../assets/illustration\ 1-\ about\ me-mobile.svg)
-    no-repeat 100% 0%,
-    url(../assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
+  background: url(./assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
 }
@@ -394,7 +315,7 @@ span {
 
 .card-cat > .cat-tags > li {
   background: white;
-  color: #1d6346;
+  color: #36b37e;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -429,7 +350,7 @@ span {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: url(../assest/illustration-contact-form.svg) no-repeat 100% 90%;
+  background: url(./assest/illustration-contact-form.svg) no-repeat 100% 90%;
   padding: 2em 5em;
 }
 
@@ -490,12 +411,9 @@ textarea {
   color: #42526e;
 }
 
+/* media for medium screen sizes, tablets */
 @media screen and (min-width: 768px) {
   .phone-navigation {
-    display: none;
-  }
-
-  .menu-mobile {
     display: none;
   }
 
@@ -529,11 +447,7 @@ textarea {
   .footer-container {
     margin-bottom: 0;
     padding-bottom: 0;
-    background:
-      url(../assets/illustration-1-contact-form-desktop.svg)
-      no-repeat 0% 90%,
-      url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%,
-      url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+    background: url(./assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(./assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(./assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
 
   .card-abt-me {
@@ -544,7 +458,7 @@ textarea {
   }
 
   .home-page {
-    background: #fff url(../assets/Header-llustration-desktop.svg) no-repeat;
+    background: #fff url(./assets/Header-llustration-desktop.svg) no-repeat;
     background-size: 100%;
     padding-bottom: 8em;
   }
@@ -564,7 +478,7 @@ textarea {
     padding: 0;
     margin: 1em;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
     color: #42526e;
     cursor: pointer;
   }
@@ -588,19 +502,12 @@ textarea {
   .recent-works h1:first-child::after {
     content: none;
   }
-
-  .link-mail {
-    display: none;
-  }
 }
 
+/* large screen sizes, laptop */
 @media screen and (min-width: 1024px) {
   .home-page {
     padding-bottom: 15em;
-  }
-
-  .menu-mobile {
-    display: none;
   }
 
   .recent-works {
@@ -615,13 +522,6 @@ textarea {
   }
 
   .about-me {
-    background:
-      url(../assets/illustration-about-me-2-desktop.svg)
-      no-repeat 0% 20%,
-      url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
-  }
-
-  .link-mail {
-    display: none;
+    background: url(./assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
   }
 }
