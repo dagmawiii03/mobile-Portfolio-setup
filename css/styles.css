@@ -7,6 +7,10 @@ body {
   padding-bottom: 2em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: block;
   background: #fff;
@@ -127,6 +131,75 @@ a {
 .abt-link:hover,
 .contact-link:hover {
   color: #1d6349;
+}
+
+.menu-mobile {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  background: #3c3a39;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 57px;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  z-index: 999;
+  animation: slide-in 1s both;
+}
+
+.showMenu {
+  display: none;
+}
+
+.close {
+  color: #6f6c6b;
+  align-self: end;
+  margin: 3.875rem 2.375rem -0.875rem;
+  background-color: unset;
+  width: 1rem;
+  height: 1rem;
+  z-index: 989;
+}
+
+.close:hover {
+  background-color: unset;
+  color: #6f6c6b;
+  border: none;
+  transform: rotate(180deg);
+  scale: 1.5;
+}
+
+.mobileLinkText {
+  text-decoration: none;
+  color: #fff5e1;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.mobileLinkText:hover {
+  color: #ff6b00;
+  font-size: 40px;
+  transition: 300ms ease-in-out;
+}
+
+.mobileLink {
+  list-style: none;
+  padding: 1rem 1.5rem;
+  border-bottom: 2px solid #6f6c6b;
+  margin: 1rem;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translatey(-100%);
+  }
+
+  100% {
+    transform: translatey(0%);
+  }
 }
 
 h1 {
@@ -416,6 +489,10 @@ textarea {
     display: none;
   }
 
+  .menu-mobile {
+    display: none;
+  }
+
   .footer-container > .social-media {
     margin-top: 18em;
   }
@@ -510,6 +587,10 @@ textarea {
 @media screen and (min-width: 1024px) {
   .home-page {
     padding-bottom: 15em;
+  }
+
+  .menu-mobile {
+    display: none;
   }
 
   .recent-works {
