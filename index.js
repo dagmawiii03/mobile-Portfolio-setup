@@ -20,3 +20,67 @@ navigationLinks.addEventListener('click', (event) => {
     menuBtn.classList.remove('hide');
   }
 });
+
+// projects
+const projectsData = [
+  {
+    id: 1,
+    name: 'Project 1',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.',
+    image: 'assets/Snapshoot-Portfolio.png',
+    liveLink: 'https://www.google.com',
+    githubLink: 'https://www.google.com',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    id: 2,
+    name: 'Project 2',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.',
+    image: 'assets/Snapshoot-Portfolio.png',
+    liveLink: 'https://www.google.com',
+    githubLink: 'https://www.google.com',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    id: 3,
+    name: 'Project 3',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.',
+    image: 'assets/Snapshoot-Portfolio.png',
+    liveLink: 'https://www.google.com',
+    githubLink: 'https://www.google.com',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    id: 4,
+    name: 'Project 4',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.',
+    image: 'assets/Snapshoot-Portfolio.png',
+    liveLink: 'https://www.google.com',
+    githubLink: 'https://www.google.com',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    id: 5,
+    name: 'Project 5',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.',
+    image: 'assets/Snapshoot-Portfolio.png',
+    liveLink: 'https://www.google.com',
+    githubLink: 'https://www.google.com',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    id: 6,
+    name: 'Project 6',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.',
+    image: 'assets/Snapshoot-Portfolio.png',
+    liveLink: 'https://www.google.com',
+    githubLink: 'https://www.google.com',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+];
