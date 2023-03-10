@@ -2,7 +2,7 @@
 const menuBtn = document.querySelector('.menu-button');
 const btnCloseNav = document.querySelector('.btn-close-nav');
 const headerNavMobile = document.querySelector('.mobile-navigation');
-const navigationLinks = document.querySelector('.navigation-links');
+// const navigationLinks = document.querySelector('.navigation-links');
 const arrayBtnPopup = document.querySelectorAll('.btn-popup');
 
 
@@ -16,12 +16,12 @@ btnCloseNav.addEventListener('click', () => {
   headerNavMobile.classList.add('hide');
 });
 
-navigationLinks.addEventListener('click', (event) => {
-  if (event.target.matches('.port-link, .abt-link, .contact-link')) {
-    headerNavMobile.classList.add('hide');
-    menuBtn.classList.remove('hide');
-  }
-});
+// navigationLinks.addEventListener('click', (event) => {
+//   if (event.target.matches('.port-link, .abt-link, .contact-link')) {
+//     headerNavMobile.classList.add('hide');
+//     menuBtn.classList.remove('hide');
+//   }
+// });
 
 const dataCards = [
   {
@@ -29,7 +29,9 @@ const dataCards = [
     url: './assets/Snapshot-Portfolio.png',
     title: 'Project-1',
     description:
-      'Final Project from React course (Bob Ziroll @bobziroll) in Scrimba, cover all principal feature about react, like a Hook, HOC, Context and more...',
+    ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
+    nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl,
+     eget aliquam nunc nisl eget nunc.`,
     tecnologies: {
       tech1: 'React',
       tech2: 'css',
