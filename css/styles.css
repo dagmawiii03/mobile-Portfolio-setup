@@ -439,7 +439,7 @@ textarea {
 .card-image-details-mobile {
   overflow: hidden;
   box-sizing: border-box;
-  border-radius: 16px; 
+  border-radius: 16px;
 }
 
 .card-image-details-mobile > img {
@@ -489,7 +489,7 @@ textarea {
 
 .card-button-mobile {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .btn-card-details-mobile {
@@ -509,13 +509,11 @@ textarea {
   align-items: center;
   margin-left: 0.33rem;
   text-decoration: none;
-
 }
 
 .btn-card-details-mobile > img {
   margin-left: 1.3em;
 }
-
 
 /* media for medium screen sizes, tablets */
 @media screen and (min-width: 768px) {
