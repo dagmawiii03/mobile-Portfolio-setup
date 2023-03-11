@@ -130,6 +130,22 @@ a {
   color: #36b37e;
 }
 
+.title-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-card-details-mobile img {
+  display: inline;
+}
+
+.card-button-mobile {
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+}
+
 h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -537,6 +553,14 @@ textarea {
 
 /* media for medium screen sizes, tablets */
 @media screen and (min-width: 768px) {
+  .card-button-mobile {
+    position: static;
+    top: -10rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
   .phone-navigation {
     display: none;
   }
@@ -634,6 +658,14 @@ textarea {
 
 /* large screen sizes, laptop */
 @media screen and (min-width: 1024px) {
+  .card-button-mobile {
+    position: static;
+    top: -10rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
   .home-page {
     padding-bottom: 15em;
   }
@@ -653,12 +685,6 @@ textarea {
     background: url(../assets/illustration-about-me-2-desktop.svg) no-repeat 0%
         20%,
       url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
-  }
-
-  .card-work-details-mobile {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 60px;
-    grid-template-rows: 60px 50% 1fr 60px 1fr;
   }
 
   .btn-close-details {
@@ -723,21 +749,4 @@ textarea {
   height: 100vh;
   width: 100%;
   z-index: 99999;
-  padding: 2rem 1rem;
-}
-
-.title-btn {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.card-button-mobile {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.btn-card-details-mobile img {
-  display: inline;
 }
