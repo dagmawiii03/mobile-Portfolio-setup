@@ -5,7 +5,6 @@ const headerNavMobile = document.querySelector('.mobile-navigation');
 // const navigationLinks = document.querySelector('.navigation-links');
 const arrayBtnPopup = document.querySelectorAll('.btn-popup');
 
-
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.add('hide');
   headerNavMobile.classList.remove('hide');
