@@ -439,7 +439,7 @@ textarea {
 .card-image-details-mobile {
   overflow: hidden;
   box-sizing: border-box;
-  border-radius: 16px;
+  border-radius: 16px; 
 }
 
 .card-image-details-mobile > img {
@@ -451,10 +451,10 @@ textarea {
 .card-title-mobile {
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 1.5em;
   color: #172b4d;
   text-align: left;
+  font-weight: 600;
+  font-size: 42px;
 }
 
 .card-tags-mobile {
@@ -489,7 +489,7 @@ textarea {
 
 .card-button-mobile {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 .btn-card-details-mobile {
@@ -499,13 +499,17 @@ textarea {
   border: none;
   width: fit-content;
   align-self: center;
-  background: #227452;
   font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 2px;
-  padding: 1em 1.5em;
   color: white;
-  border-radius: 3px;
+  padding: 0.5rem 0.8rem;
+  letter-spacing: 0.03em;
+  font-size: 17px;
+  background: #36b37e;
+  border-radius: 4px;
+  align-items: center;
+  margin-left: 0.33rem;
+  text-decoration: none;
+
 }
 
 .btn-card-details-mobile > img {
