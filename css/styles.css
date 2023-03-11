@@ -11,7 +11,7 @@ body {
 body {
   display: block;
   background: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .phone-navigation {
@@ -23,7 +23,7 @@ body {
 
 .logo {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -131,7 +131,7 @@ a {
 }
 
 h1 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -216,7 +216,7 @@ span {
 }
 
 .recent-works h1:first-child::after {
-  content: "";
+  content: '';
   height: 4px;
   width: 48px;
   margin: 0 auto;
@@ -288,25 +288,27 @@ span {
   width: 100%;
   z-index: 2; */
   position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 120;
-    background-color: #fff;
-    width: 80%;
-    max-width: 900px;
-    max-height: 90vh;
-    overflow-y: auto;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
-    box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 120;
+  background-color: #fff;
+  width: 80%;
+  max-width: 900px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 
 .about-me {
   margin-top: 2em;
-  background: url(../assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(../assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
+  background: url(../assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat
+      100% 0%,
+    url(../assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
 }
@@ -532,7 +534,6 @@ textarea {
   margin-left: 1.3em;
 }
 
-
 /* media for medium screen sizes, tablets */
 @media screen and (min-width: 768px) {
   .phone-navigation {
@@ -569,7 +570,10 @@ textarea {
   .footer-container {
     margin-bottom: 0;
     padding-bottom: 0;
-    background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+    background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat
+        0% 90%,
+      url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%,
+      url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
 
   .card-abt-me {
@@ -645,7 +649,9 @@ textarea {
   }
 
   .about-me {
-    background: url(../assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+    background: url(../assets/illustration-about-me-2-desktop.svg) no-repeat 0%
+        20%,
+      url(../assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
   }
 
   .card-work-details-mobile {
@@ -668,7 +674,6 @@ textarea {
     margin-top: 0.5rem;
     border-radius: 10px;
     grid-column: 1 / -1;
-    grid-row: ;
   }
 
   .card-title-mobile {
@@ -682,7 +687,7 @@ textarea {
     justify-content: center;
     align-items: center;
     grid-column: 3/ 3;
-    grid-row:  8/ 9;
+    grid-row: 8/ 9;
   }
 
   .card-tags-mobile {
@@ -706,4 +711,16 @@ textarea {
     color: #344563;
     border-radius: 0.5em;
   }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  padding: 2rem 1rem;
 }

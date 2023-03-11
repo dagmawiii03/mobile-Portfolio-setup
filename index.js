@@ -27,8 +27,7 @@ const dataCards = [
     id: 0,
     url: './assets/Snapshot-Portfolio.png',
     title: 'Project-1',
-    description:
-    ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
+    description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
     nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl,
      eget aliquam nunc nisl eget nunc.`,
     tecnologies: {
@@ -43,8 +42,7 @@ const dataCards = [
   {
     id: 1,
     url: './assets/Snapshot-Portfolio.png',
-    title:
-      'Project-2',
+    title: 'Project-2',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
     nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl,
      eget aliquam nunc nisl eget nunc.`,
@@ -59,8 +57,7 @@ const dataCards = [
   {
     id: 2,
     url: './assets/Snapshot-Portfolio.png',
-    title:
-      'Project-3',
+    title: 'Project-3',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
     nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl,
      eget aliquam nunc nisl eget nunc.`,
@@ -75,8 +72,7 @@ const dataCards = [
   {
     id: 3,
     url: './assets/Snapshot-Portfolio.png',
-    title:
-      'Project-4',
+    title: 'Project-4',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
     nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl,
      eget aliquam nunc nisl eget nunc.`,
@@ -91,8 +87,7 @@ const dataCards = [
   {
     id: 4,
     url: './assets/Snapshot-Portfolio.png',
-    title:
-      'Project-5',
+    title: 'Project-5',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
     nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl,
      eget aliquam nunc nisl eget nunc.`,
@@ -107,8 +102,7 @@ const dataCards = [
   {
     id: 5,
     url: './assets/Snapshot-Portfolio.png.jpg',
-    title:
-      'Project-6',
+    title: 'Project-6',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, 
     nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl,
      eget aliquam nunc nisl eget nunc.`,
@@ -160,7 +154,10 @@ for (let i = 0; i < arrayBtnPopup.length; i++) {
   arrayBtnPopup[i].addEventListener('click', () => {
     const cardWork = document.createElement('div');
     cardWork.innerHTML = cardWorkDetailsMobile(i);
-    document.body.appendChild(cardWork);
+    const modal = document.createElement('div');
+    modal.classList.add('modal');
+    modal.appendChild(cardWork);
+    document.body.appendChild(modal);
     const btnCloseDetailsMobile = document.querySelector('.btn-close-details');
     btnCloseDetailsMobile.addEventListener('click', async () => {
       document.body.removeChild(cardWork);
