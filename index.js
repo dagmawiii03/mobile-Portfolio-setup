@@ -124,17 +124,11 @@ const cardWorkDetailsMobile = (index) => `
           <div class="card-image-details-mobile">
               <img src=${dataCards[index].url} alt="a guy with a backpack in mountain">
           </div>
+          <div class="title-btn">
           <h2 class="card-title-mobile">
               ${dataCards[index].title}
           </h2>
-          <ul class="card-tags-mobile">
-              <li class="tag-mobile">${dataCards[index].tecnologies.tech1}</li>
-              <li class="tag-mobile">${dataCards[index].tecnologies.tech2}</li>
-              <li class="tag-mobile">${dataCards[index].tecnologies.tech3}</li>
-          </ul>
-          <p class="card-paragraph-mobile">
-            ${dataCards[index].description}
-          </p>
+          <div>
           <div class="card-button-mobile">
                   <a href=${dataCards[index].linkVersion} class="btn-card-details-mobile">
                   See Live
@@ -145,6 +139,16 @@ const cardWorkDetailsMobile = (index) => `
                   <img src="./assets/github_white.svg" alt="see github icon">
                   </a>
           </div>
+          </div>
+          </div>
+          <ul class="card-tags-mobile">
+              <li class="tag-mobile">${dataCards[index].tecnologies.tech1}</li>
+              <li class="tag-mobile">${dataCards[index].tecnologies.tech2}</li>
+              <li class="tag-mobile">${dataCards[index].tecnologies.tech3}</li>
+          </ul>
+          <p class="card-paragraph-mobile">
+            ${dataCards[index].description}
+          </p>
           <script src="index.js"></script>
   </article>
   `;
