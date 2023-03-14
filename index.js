@@ -27,7 +27,7 @@ const dataCards = [
     id: 0,
     url: './assets/Snapshot-Portfolio.png',
     title: 'Project-1',
-    description: ` Lorem ipsum dolor sit amet,.`,
+    description: ' Lorem ipsum dolor sit amet,.',
     tecnologies: {
       tech1: 'React',
       tech2: 'css',
@@ -56,7 +56,7 @@ const dataCards = [
     id: 2,
     url: './assets/Snapshot-Portfolio.png',
     title: 'Project-3',
-    description: ` Lorem ipsum dolor .`,
+    description: 'Lorem ipsum dolor .',
     tecnologies: {
       tech1: 'HTML',
       tech2: 'CSS',
@@ -69,7 +69,7 @@ const dataCards = [
     id: 3,
     url: './assets/Snapshot-Portfolio.png',
     title: 'Project-4',
-    description: ` Lorem ipsum dolor sit amet, consectetur .`,
+    description: ' Lorem ipsum dolor sit amet, consectetur .',
     tecnologies: {
       tech1: 'HTML',
       tech2: 'CSS',

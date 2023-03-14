@@ -1,3 +1,4 @@
+/* stylelint-disable declaration-colon-newline-after */
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"); */
 
 /* mobile media <768px property */
@@ -142,6 +143,8 @@ a {
 
 .card-button-mobile {
   position: absolute;
+  display: flex;
+  justify-content: space-between;
   bottom: -2rem;
   left: 0;
 }
@@ -322,8 +325,7 @@ span {
 
 .about-me {
   margin-top: 2em;
-  background: url(../assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat
-      100% 0%,
+  background: url(../assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%,
     url(../assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
@@ -523,21 +525,16 @@ textarea {
   line-height: 1.5em;
 }
 
-.card-button-mobile {
-  display: flex;
-  justify-content: space-between;
-}
-
 .btn-card-details-mobile {
   /* position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 120; */
-  /* width: 80%;
+  z-index: 120;
+  width: 80%;
   max-width: 900px;
-  max-height: 90vh; */
-  /* background-color: #36b37e;
+  max-height: 90vh; 
+  background-color: #36b37e;
   white-space: nowrap;
   overflow-y: auto;
   padding: 1rem;
@@ -556,7 +553,6 @@ textarea {
   align-items: center;
   margin-left: 0.33rem;
   text-decoration: none;
-
 }
 
 .btn-card-details-mobile > img {
@@ -607,8 +603,7 @@ textarea {
   .footer-container {
     margin-bottom: 0;
     padding-bottom: 0;
-    background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat
-        0% 90%,
+    background: url(../assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%,
       url(../assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%,
       url(../assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
@@ -676,6 +671,9 @@ textarea {
     display: flex;
     align-items: center;
     gap: 2rem;
+    justify-content: center;
+    grid-column: 3/ 3;
+    grid-row: 8/ 9;
   }
 
   .home-page {
@@ -713,7 +711,6 @@ textarea {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* margin-top: 0.5rem; */
     border-radius: 10px;
     grid-column: 1 / -1;
     grid-row: 2/3;
@@ -726,13 +723,6 @@ textarea {
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-  }
-
-  .card-button-mobile {
-    justify-content: center;
-    align-items: center;
-    grid-column: 3/ 3;
-    grid-row: 8/ 9;
   }
 
   .card-tags-mobile {
