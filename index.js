@@ -158,7 +158,7 @@ for (let i = 0; i < arrayBtnPopup.length; i++) {
     document.body.appendChild(modal);
     const btnCloseDetailsMobile = document.querySelector('.btn-close-details');
     btnCloseDetailsMobile.addEventListener('click', async () => {
-      document.body.removeChild(cardWork);
+      document.body.removeChild(modal);
     });
   });
 }
