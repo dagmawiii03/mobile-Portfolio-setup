@@ -176,7 +176,6 @@ form.addEventListener('submit', (event) => {
   // Email is not in lowercase, prevent form submission and show error message
   event.preventDefault();
   const errorText = document.createElement('span');
-  errorText.innerHTML = 'Email Address should be written in lower case';
   errorText.style.color = 'red';
   emailInput.parentNode.appendChild(errorText);
   return false;
