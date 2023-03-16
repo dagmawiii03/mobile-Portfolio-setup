@@ -167,7 +167,7 @@ for (let i = 0; i < arrayBtnPopup.length; i++) {
 }
 
 const form = document.querySelector('.form-input');
-const emailInput = document.querySelector('input[name="email"]'); 
+const emailInput = document.querySelector('input[name="email"]');
 form.addEventListener('submit', function(event) {
   // Check if email is in lowercase
   if (emailInput.value === emailInput.value.toLowerCase()) {
