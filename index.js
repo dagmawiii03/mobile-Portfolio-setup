@@ -22,6 +22,9 @@ btnCloseNav.addEventListener('click', () => {
 //   }
 // });
 
+// const form = document.querySelector('.form-input');
+// const [fullName, firstName, lastName, email, textArea] = form.elements;
+
 const dataCards = [
   {
     id: 0,
@@ -162,3 +165,19 @@ for (let i = 0; i < arrayBtnPopup.length; i++) {
     });
   });
 }
+
+const form = document.querySelector('.form-input');
+const emailInput = document.querySelector('input[name="email"]');
+form.addEventListener('submit', (event) => {
+  // Check if email is in lowercase
+  if (emailInput.value === emailInput.value.toLowerCase()) {
+    return true;
+  }
+  // Email is not in lowercase, prevent form submission and show error message
+  event.preventDefault();
+  const errorText = document.createElement('span');
+  errorText.innerHTML = 'Email Address should be written in lower case';
+  errorText.style.color = 'red';
+  emailInput.parentNode.appendChild(errorText);
+  return false;
+});

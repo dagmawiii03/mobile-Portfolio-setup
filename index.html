@@ -251,18 +251,20 @@
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h1>
-        <form action="https://formspree.io/f/xoqzdylg" method="post">
+        <div id="error"><div>
+        <form action="https://formspree.io/f/xoqzdylg" method="post" class="form-input">
           <ul class="form-fields">
             <li class="input-name">
               <input
                 type="text"
                 name="name"
+                id="name"
                 maxlength="30"
                 placeholder="Full name"
                 required
               />
             </li>
-            <li class="input-email-form">
+            <li class="input-email-li">
               <input
                 class="input-email"
                 type="email"
@@ -282,7 +284,9 @@
               ></textarea>
             </li>
             <li class="submit-button">
-              <button type="submit">Get in touch</button><br />
+              <button type="submit">
+                Get in touch
+              </button><br />
               <small></small>
             </li>
           </ul>
