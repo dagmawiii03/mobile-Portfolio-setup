@@ -181,3 +181,24 @@ form.addEventListener('submit', (event) => {
   emailInput.parentNode.appendChild(errorText);
   return false;
 });
+
+// Data preserving in the browser
+const formInputs = document.querySelectorAll('.form-input input, .form-input textarea');
+
+// Initialize an object to store the form data
+let formData = {};
+
+// Loop through the form input elements and add event listeners
+formInputs.forEach((input) => {
+  // Set the initial value of the input from the local storage, if available
+  if (localStorage.getItem(input.name)) {
+    input.value = localStorage.getItem(input.name);
+    formData[input.name] = input.value;
+  }
+
+  // Add an event listener to save the input value to the local storage
+  input.addEventListener('input', () => {
+    localStorage.setItem(input.name, input.value);
+    formData[input.name] = input.value;
+  });
+});
