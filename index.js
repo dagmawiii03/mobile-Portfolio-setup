@@ -204,4 +204,4 @@ formInputs.forEach((input) => {
 });
 
 // Save the entire form data to the local storage
-localStorage.setItem('formData', JSON.stringify(formData));
+localStorage.setItem('formData', JSON.stringify(formInputs));
