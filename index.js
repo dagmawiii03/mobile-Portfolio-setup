@@ -186,7 +186,7 @@ form.addEventListener('submit', (event) => {
 const formInputs = document.querySelectorAll('.form-input input, .form-input textarea');
 
 // Initialize an object to store the form data
-let formData = {};
+const formData = {};
 
 // Loop through the form input elements and add event listeners
 formInputs.forEach((input) => {
@@ -205,4 +205,3 @@ formInputs.forEach((input) => {
 
 // Save the entire form data to the local storage
 localStorage.setItem('formData', JSON.stringify(formData));
-
