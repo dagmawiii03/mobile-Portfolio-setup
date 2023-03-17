@@ -202,3 +202,7 @@ formInputs.forEach((input) => {
     formData[input.name] = input.value;
   });
 });
+
+// Save the entire form data to the local storage
+localStorage.setItem('formData', JSON.stringify(formData));
+
