@@ -28,17 +28,17 @@ btnCloseNav.addEventListener('click', () => {
 const dataCards = [
   {
     id: 0,
-    url: './assets/Snapshot-Portfolio.png',
+    url: './assets/dataverse_poster.png',
     title: 'Project-1',
-    description: ' Lorem ipsum dolor sit amet,.',
+    description: ' builded  an online website for a data conference with home and about page,provided some design guidelines from Behance and have created the website and personalized my own the content,',
     tecnologies: {
       tech1: 'React',
       tech2: 'css',
       tech3: 'JavaScript',
       tech4: 'html',
     },
-    linkVersion: 'https://www.google.com/',
-    linkSource: 'https://github.com/dagmawiii03',
+    linkVersion: 'https://dagmawiii03.github.io/data-conference-room/',
+    linkSource: 'https://github.com/dagmawiii03/data-conference-room',
   },
   {
     id: 1,
